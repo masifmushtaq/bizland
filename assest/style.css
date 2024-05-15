@@ -9,36 +9,38 @@
 
 /* ======top bar start= ========== */
 
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 .top-bar {
-    background-color: #1d47d3;
-    color: #fff;
+    background-color: #fff;
+    color: black;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
 }
 
 .contact-info a {
-    color: #fff;
+    color: black;
     text-decoration: none;
     margin-right: 20px;
 }
 
 
 .social-links a {
-    color: rgba(255, 255, 255, 0.7);
+    color: rgba(0, 0, 0, 0.7);
     text-decoration: none;
     margin-left: 10px;
     
 }
 .top-bar a:hover{
-    color: white;
+    color: rgb(0, 0, 0);
     transition: all 0.4s;
 }
 
@@ -49,6 +51,74 @@
     .social-links {
         margin-left: auto;
     }
-}
+} */
 
 /* ==============]top bar end[============== */
+
+
+/* ==============[] nav bar start=============][ */
+.btn1{
+    background-color: rgb(255, 255, 255);
+    height: 30px;
+    color: #ff2b85;
+    width: 80px;
+    margin-right: 20px;
+border-radius: 6px;
+    border: 1px solid #ff2b85;
+}
+.btn2{
+    
+    background-color: #ff2b85;
+    height: 30px;
+    width: 80px;
+    margin-right: 20px;
+    border: none;
+    border-radius: 6px;
+color: white;
+}
+
+.contest .btn{
+    background-color: #ff2b85;
+    height: 50px;
+    width: 90px; 
+    color: white;
+}
+
+.hero-section{
+    height: 500px;
+    width: 100%;
+    background-color: rgb(245, 243, 240);
+ 
+}
+
+
+.contest{
+    height: 84px;
+    width: 450px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.4);
+
+}
+.contest input{
+    height: 40px;
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 1px solid black;
+margin-left: 20px; 
+margin-right: 20px;  
+ outline: none;
+}
+.imag{
+height: 445px;
+width: 850px;
+position: relative;
+
+}
+.imag img{
+  overflow: hidden;
+    height: 100%;
+    width: 500px;
+    
+}
